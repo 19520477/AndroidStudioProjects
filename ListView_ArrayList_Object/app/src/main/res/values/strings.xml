@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ListView_ArrayList_Object</string>
+    <string name="input">Nhập NV </string>
+    <string name="tvName">Tên NV: </string>
+    <string name="name">Name</string>
+    <string name="id">Mã NV: </string>
+    <string name="fulltime">Chính thức \t\t</string>
+    <string name="parttime">Thời vụ \t\t </string>
+    <string name="type">Loại NV: </string>
+    <string name="qlnv">Quản lý nhân viên </string>
+</resources>

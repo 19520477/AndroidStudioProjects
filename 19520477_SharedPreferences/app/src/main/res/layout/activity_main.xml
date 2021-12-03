@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <LinearLayout android:id="@+id/ll_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnSimple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pref Simple UI"
+            android:backgroundTint="@color/chocolate"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="ButtonStyle"
+            tools:targetApi="lollipop"/>
+
+        <Button
+            android:id="@+id/btnFancy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/chocolate"
+            android:text="Pref Fancy UI"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="ButtonStyle"
+            tools:targetApi="lollipop"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvMyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/coolgreen"
+        android:textColor="@color/white"/>
+</LinearLayout>

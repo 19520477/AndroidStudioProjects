@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab02_GridView_Spinner</string>
+    <string name="name">Name: </string>
+    <string name="thumbnail">Thumbnail: </string>
+    <string name="promotion">Promotion: </string>
+    <string name="add">\t\t\t add a new dish \t\t\t</string>
+    <string name="message">Added Successfully</string>
+    <string name="message1">Please enter a name!</string>
+</resources>

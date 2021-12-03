@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">19520477_Lab3_2</string>
+        <string name="name">Name:</string>
+        <string name="phone">Phone:</string>
+        <string name="add">Add</string>
+    <string name="update">Update</string>
+</resources>
