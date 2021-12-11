@@ -14,11 +14,11 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class LightSensor extends AppCompatActivity implements SensorEventListener {
-    private ImageView img_Bulb;
     private SensorManager sensorManager;
     private Sensor sensor;
     Boolean bulb = true;
     private Button btnBack;
+    private ImageView img_Bulb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
